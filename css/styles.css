@@ -1,0 +1,299 @@
+
+#title {
+    background-color: #606f7e;
+    display: flex;
+  }
+
+  .container-fluid {
+    padding: 3% 15%;
+  }
+
+  section{
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr{
+    border-top: 10px solid white;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1.5;
+    color:#40c599;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color:  white;
+    border-radius: 10%;
+    padding: 0 10px;
+  }
+  
+  p {
+    padding-top: 10px;
+    font-family: 'Montserrat';  
+    font-size: 15px;
+    color: #F0FFFF;
+    text-align: center;
+  }
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #navbar {
+    background-color: #333; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    left: 0;
+    transition: top 0.3s;
+    z-index: 5555;
+  }
+  
+  #navbar a {
+    font-family: 'Titillium Web';
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #about {
+    font-family: 'Anton', sans-serif;
+    top: 20px;
+    background-color: black;
+  }
+  
+  #experience {
+    font-family: 'Anton', sans-serif;
+    top: 80px;
+    background-color: black; 
+  }
+  
+  #contact {
+    font-family: 'Anton', sans-serif;
+    top: 140px;
+    background-color: black;
+  }
+  
+  #resume {
+    font-family: 'Anton', sans-serif;
+    top: 200px;
+    background-color:black;
+  }
+
+  .aboutMe-image {
+    width: 80%;
+    position: relative;
+    top: 9rem;
+    border-radius: 5%;
+    margin: 3rem;
+  }
+  
+  #aboutMe {
+    background-color: #606f7e; 
+    padding: 0,0,40rem;
+  }
+  
+  .aboutMe-box {
+    text-align: right;
+    padding: 5% 5% 5%;
+  }
+  .aboutMe-content{
+    background-color: rgb(94, 94, 94);
+    padding: 10px 12px 40px 12px;
+    border-radius: 10px;
+  }
+
+   #skills{
+    background-color: #606f7e;
+    text-align: center;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    font-family: 'Playfair Display';
+    color:  white;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img{
+    padding: 1.25rem;
+  }
+
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #d1d1d1;
+    border-radius: 11px;
+    box-shadow: 10px 5px 10px rgb(68, 68, 68);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #Experience {
+    background-color: #606f7e;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .Experience-column {
+    padding: 3% 3% 2%;
+  }
+  
+  .card:hover{
+    opacity: 1.0;
+  }
+
+  .card{
+    text-decoration:none;
+    background-color: rgb(143, 145, 145);  
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+
+  .card-title{
+    font-family: 'Titillium';
+    font-weight: bold;
+    color: rgb(222, 226, 222);
+  }
+
+  .card-text{
+    color: rgb(255, 255, 255);
+    line-height: 1.5rem;
+  }
+
+  #footer{
+    background-color: #a2a6aa;
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+  .leetCode{
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    opacity: 0;
+    pointer-events: none;
+    overflow: auto;
+    
+  }
+
+  .assignments{
+    z-index: 9999;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    opacity: 0;
+    pointer-events:none;
+    overflow: auto;
+    
+  }
+
+  .projects{
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    opacity: 0;
+    pointer-events:none;
+    overflow: auto;
+  }
+
+  .leetCode.showLeetCode{
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .modal_1{
+    position: relative;
+    right: 120px;
+    margin-top: 1rem;
+    padding: 10px 12px 40px 12px;
+  }
+  
+  .assignments.showAssignments{
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .modal_2{
+    position: relative;
+    right: 100px;
+    margin-top: 1rem;
+  }
+
+  .projects.showProjects{
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  button {
+
+    background-color: transparent;
+    margin: 20px 0 0 0;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  @media (max-width: 1028px) {
+    #aboutMe {
+      text-align: center;
+    }
+  
+    .aboutMe-image {
+      position: static;
+      border-radius: 5px;
+    }
+  }
+  
